@@ -21,12 +21,13 @@ var fizzBuzz = function(n) {
             count++;
             continue;
         }
-        result.push(count.toString());
+        //result.push(count.toString());
         count++;
     }
     return result;
 };
 
 
-fizzBuzz(15);
+let result = fizzBuzz(15);
+console.log(result);
 // But for multiples of three it should output “Fizz” instead of the number and for the multiples of five output “Buzz”. For numbers which are multiples of both three and five output “FizzBuzz”
