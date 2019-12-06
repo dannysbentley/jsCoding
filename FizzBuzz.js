@@ -21,7 +21,7 @@ var fizzBuzz = function(n) {
             count++;
             continue;
         }
-        //result.push(count.toString());
+        result.push(count.toString());
         count++;
     }
     return result;
