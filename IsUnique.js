@@ -7,10 +7,8 @@ class obj{
         this.count =0;
     }
 }
-
 function isUnique(str) {
-    arrObj = [];
-    
+    arrObj = [];  
 
     str = str.toLocaleLowerCase().replace(/\s/g,'').split('');
 

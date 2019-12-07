@@ -7,8 +7,6 @@ var removeDuplicates = function(nums) {
         return nums.length;
     }
     for(let i = 1; i < nums.length; i++){
-        console.log(i);
-        console.log(nums);
         while(nums[i] === nums[i-1]){
             nums.splice(i-1, 1);
         }
